@@ -1,4 +1,4 @@
-FROM humilit/common:1.0.0
+FROM humilit/common:1.0.1
 LABEL maintainer="robert.brendler+github@gmail.com"
 
 ENV PHP_TIME_LIMIT=10
