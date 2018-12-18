@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "running common-php-setup"
+
+apk update
+
+apk-add-recipe /usr/local/recipe/common-php.recipe
+
+apk-flush-cache
+

@@ -1,0 +1,48 @@
+# apk recipe file
+# add one apk package per line, install this file with 'apk-add-recipe $filepath'
+# start comment lines with '#'
+
+php7-apcu
+php7-ctype
+php7-curl
+php7-iconv
+php7-json
+php7-mbstring
+php7-memcached
+php7-mysqli
+php7-mysqlnd
+php7-opcache
+php7-pdo_mysql
+php7-session
+
+# optional packages for installation in application container
+
+## common
+# php7-dom
+# php7-gd
+# php7-xml
+
+## specific to application
+# php7-bcmath
+# php7-bz2
+# php7-exif
+# php7-fileinfo
+# php7-ftp
+# php7-gmp
+# php7-imagick
+# php7-intl
+# php7-openssl
+# php7-pdo_sqlite
+# php7-phar
+# php7-redis
+# php7-simplexml
+# php7-soap
+# php7-sockets
+# php7-xmlreader
+# php7-xmlrpc
+# php7-xmlwriter
+# php7-xsl
+
+## for cli
+# php7-zip
+# php7-zlib
